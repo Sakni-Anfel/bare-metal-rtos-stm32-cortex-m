@@ -6,7 +6,7 @@ A bare-metal real-time operating system for the STM32F401, built from scratch us
 
 Most embedded projects lean on vendor-provided abstraction layers (HAL, CMSIS) from day one. This project takes the opposite approach: every peripheral driver, every register struct, and every piece of the interrupt and scheduling infrastructure is written directly from the manufacturer's reference manuals, with no generated code in between.
 
-The goal is to build a genuine understanding of what happens at the hardware level — how the NVIC arbitrates interrupts, how the SCB configures system exceptions, how the Cortex-M exception model enables context switching — and to use that understanding as the foundation for a real-time scheduler suitable for safety-critical style applications.
+The goal is to build a genuine understanding of what happens at the hardware level , how the NVIC arbitrates interrupts, how the SCB configures system exceptions, how the Cortex-M exception model enables context switching, and to use that understanding as the foundation for a real-time scheduler suitable for safety-critical style applications.
 
 ## Current status
 
