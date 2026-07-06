@@ -1,0 +1,11 @@
+Debug/
+Release/
+*.o
+*.obj
+*.elf
+*.map
+.metadata/
+.settings/
+.cproject
+.project
+build/
